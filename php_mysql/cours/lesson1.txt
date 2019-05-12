@@ -1,0 +1,59 @@
+1 LES SITES STATIQUES ET DYNAMIQUES 
+Il existe deux types de sites. Les sites statiques et les sites dynamiques.
+
+* Les sites statiques qui sont réalisés en langages dits "classiques" CaD en HTML/CSS. Le contenu ne peut pas être mis à jour automatiquement, il faut que le webmaster modifie le code pour y ajouter les nouveautés. Ces sites sont très pratiques pour faire des sites vitrines. Ce type de sites se font rares aujourd'hui car dès que l'ont ajoute un formulaire de contact cela devient un site dynamique.
+
+* Les sites dynamiques sont plus complexes et utilisent des langages supplémentaires comme le PhP et le MySQL. Ce genre de site est dit dynamique car il peut être mis à jour sans l'intervention du webmaster. Les sites dynamiques peuvent par exemple inclure un espace membre, un forum, un compteur de visiteurs, des actualités, des newsletters et plus encore. 
+
+2 COMMENT FONCTIONNE UN SITE WEB
+Internet est un réseau composé d'ordinateurs qui peuvent être classés en deux catégories.
+
+* Les clients qui sont des internautes lambda. Chaque client représente un visiteur d'un site web. 
+
+* Les serveurs qui sont des ordinateurs puissants qui stockent et délivrent des sites webs aux internautes. 
+
+En résumé notre ordinateur est appelé client et l'ordinateur qui détient le site web est appelé serveur. Comment communiquent-ils ? C'est justement là la différence entre un site statique et dynamique. 
+
+* Pour un site statique le client demande au serveur à voir une page web et le serveur répond en lui envoyant la page réclamée. La communication est basique. Il ne se passe rien d'autre, le serveur stocke les pages webs et les envoient au client sans les modifier.
+
+* Pour les sites dynamiques il existe une étape intermédiaire. La page est générée. Le client demande au serveur a voir une page web. Le serveur prépare la page spécialement pour le client. Le serveur lui envoie la page tout juste générée.
+
+Le fait que la page web se génère à chaque fois qu'un client la réclame est précisment ce qui rend un site dynamique vivant. Le contenu d'une même pasge peut changer d'un utilisateur a un autre.
+
+3 LES LANGAGES DU WEB
+Lorsque l'ont crée un site web on est ammené à manipuler non pas un mais plusieurs langages. En tant que Webmaster il faut absolument les connaitres.
+
+* Pour un site statique c'est le HTML et le CSS. Le HTML est le langage de base des sites web. Il fonctionne à l'aide de balises. Le CSS est un langage de mise en forme des sites web. Alors que le HTML permet d'écire le contenu de vos sites, le CSS s'occupe de la mise en page. 
+Ces langages sont basiques et communs à tout les sites. Or lorsqu'on ne connait qu'eux on ne peut créer que des sites statiques.
+
+* Pour un site dynamique ajouter PHP et MySQL. Quelque soit le site web que l'on souhaite créer HTML et CSS ne sont pas toujours suffisants. Il faut parfois les compléter avec d'autres langages comme PHP et MySQL.
+Le PHP est un langage que seuls les serveurs comprennent. Il permet de rendre nos sites dynamiques. C'est le PHP qui gènere la page web. Il y a aussi le MySQL qui est aussi un SGBD, un Système de Gestion de Base de Données. Son role est d'enregistrer des données afin de nous aider à les retrouver plus tard. Le langage qui permet( de communiquer avec cette base de donées s'appelle le SQL. PHP peut être utilisé sans MySQL et suffit a faire d'un site statique un site dynamique. C'est PHP qui décide du code HTML qui sera renvoyé au client.
+
+4 ET LA CONCURRENCE 
+HTML et CSS n'ont pas de concurrents car ce sont des standarts tout le monde les connais et les utilisent.
+En revanche pour ce qui est des sites dynamiques, PHP et MySQL sont loin d'être les seuls sur le coup.
+
+* Les concurrents de PHP comptent notemment ASP .NET concu par Microsoft. Ce langage est bien connu des utilisateurs de C#.
+
+* Ruby on Rails est un framework très actif qui s'utilie avec le Ruby.
+
+* Django est similaire a Ruby on Rails mais avec le Python.
+
+* Java et JSP aka JEE ou Java EE est très utilisé dans le monde professionel et demande une certaine rigueur. 
+
+Pour MySQL il existe aussi de nombreux concurrents.
+
+* Parmis eux Oracle est le SGBD le plus celebre et le plus complet. Il est puissant mais cher ce qui le reserve plutôt en entreprise.
+
+* MariaDB variante de MySQL qui a été racheté par Oracle.
+
+* Microsoft SQL Server est édité par Microsoft et est souvent utilisé avec ASP .NET. Il est payant.
+
+* PostgreSQL est un SGBD libre et gratuit qui possède des fonctionnalités avancées.
+
+5 EN RESUME
+
+Il existe deux types de sites web, les statiques en HTML CSS et les Dynamiques qui ont aussi du PHP.
+Les visiteurs sont appelés des clients.
+PHP est un langage executé par le serveur qui va générer lui même les pages web personnalisés en fonction du client.
+MySQL est un système de gestion de Base de données. 

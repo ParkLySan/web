@@ -1,0 +1,36 @@
+1 LES BALISES PHP
+Le code source d'une page HTML est constitué de balises. Le code PHP vient s'inserrer au milieu du code HTML. On va progressivement placer dans nos pages web des morceaux de code HTML. Ces bouts de code PHP seront les parties dynamiques de la page c'est à dire les parties qui peuvent changer toutes seules. On dit donc qu'elles sont dynamiques.
+
+2 LA FORME D'UNE BALISE PHP
+Pour utiliser PHP on va devoir utiliser une nouvelle balise, une un peu spéciale qui commence par <?php et ser referme par ?>.
+C'est à l'interieur que l'ont mettra du code PHP.
+
+EXEMPLE :
+<?PHP /*le code PHP sera ici */ ?>
+
+Cependant en général le code PHP s'écrira sur plusieurs lignes.
+
+EXEMPLE :
+<?PHP
+/* Le code s'écrit ici
+ici
+et même ici */
+?>
+
+2 INSERER UNE BALISE PHP AU MILIEU DU CODE HTML
+La balise PHP que nous venons de découvrir s'insère au milieu d'un code HTML voir Figure1.php
+
+3 AFFICHER DU TEXTE
+*L'instruction echo
+Le PHP est un langage de programmation ce qui n'est pas le cas du langage HTML.
+Tout langage de programmation contient des instructions. On en écrit en général une par ligne et elle se termine par un point virgule.
+Une instruction commande à l'ordinateur une action précise.
+'echo' est la plus simple a connaitre.
+
+<?php echo "ceci est du texte"; ?>
+
+A l'interieur de la balise PHP on écrit echo suivi du texte a afficher entre guillemets puis un point virgule qui signifie "fin de l'instruction"
+
+voir Figure2.php
+
+On peut même 
